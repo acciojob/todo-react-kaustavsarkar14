@@ -6,6 +6,7 @@ const App = () => {
   const [todos, setTodos] = useState([])
   const [newTodo, setNewTodo] = useState('')
   const addTodo = ()=>{
+    setNewTodo('')
     setTodos([...todos, newTodo])
   }
   const deleteTodo = (index)=>{
