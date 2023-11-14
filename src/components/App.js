@@ -21,7 +21,7 @@ const App = () => {
         <ul>
           {
             todos.map((todo, i)=>{
-              return <li>{todo} <button onClick={()=>deleteTodo(i)} >Delete</button></li>
+              return <li>{todo} <button onClick={()=>deleteTodo(i)} ></button></li>
             })
           }
         </ul>
